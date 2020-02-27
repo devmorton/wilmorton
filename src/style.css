@@ -1,0 +1,61 @@
+body,
+html{
+    min-height:  100%;
+}
+
+body {
+background-image: id("goodbodys");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#header {
+z-index: 1;
+position: absolute;
+top: 130px;
+left: 100px;
+text-align: center;
+font-size: 600%;
+color: white;
+font-family: sans-serif;
+font-weight: 100;
+}
+
+#main {
+z-index: 1;
+position: absolute;
+top: 235px;
+left: 100px;
+text-align: center;
+font-size: 150%;
+font-style: italic;
+color: white;
+font-family: sans-serif;
+font-weight: 100;
+}
+
+#nav {
+z-index: 1;
+position: absolute;
+top: 475px;
+left: 100px;
+text-align: center;
+font-size: 200%;
+color: white;
+font-family: sans-serif;
+font-weight: 200;
+}
+
+#linkedin{
+z-index: 1;
+position: absolute;
+top: 170px;
+left: 410px;
+}
+
+#github{
+z-index: 1;
+position: absolute;
+top: 165px;
+left: 560px;
+}
